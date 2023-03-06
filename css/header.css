@@ -1,0 +1,39 @@
+input[type="search"] {
+    border: none;
+}
+
+header {
+    background: linear-gradient(to right, rgb(203, 231, 236), rgb(255, 209, 148));
+    border: 1px solid black;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-family: Courier;
+    font-weight: bold;
+}
+
+header .nav-link {
+    color: gray;
+}
+
+header .nav-link:hover, .nav-link:focus {
+    color: #8764c0;
+}
+
+header .nav-link:active {
+    color: #dbaf5c;
+}
+.dropdown-item:hover {
+    color: #8764c0;
+}
+
+.dropdown-item:active,:focus {
+    color: #dbaf5c;
+}
+
+.plus-badge {
+    font-size: 10px;
+    padding: 10px 10px;
+    background: linear-gradient(101.67deg, #48cce0 7.24%, #505add 34.12%, #be40c0 62.93%, #fba82b 92.22%);
+}

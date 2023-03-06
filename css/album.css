@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(to left, rgb(213, 224, 253), rgb(252, 248, 187));
+}
+.list-group-item:hover {
+    outline: 4px solid #8764c0;
+    z-index: 1;
+    color: #8764c0;
+}
+
+.list-group-item:active {
+    color: #dbaf5c;
+}
+
+.list-group-item {
+    border: 1px dashed black;
+}

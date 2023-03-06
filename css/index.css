@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(to left, rgb(213, 224, 253), rgb(252, 248, 187))
+}
+.albums .card:hover {
+    outline: 4px solid #8764c0;
+    color: #8764c0;
+}
+
+.albums a {
+    color: black;
+}
+
+.card-text {
+    font-size: 20px;
+    font-family:'Courier New';
+}
+
+h1 {
+    font-family: monospace;
+    text-decoration:overline 2px
+}
+
+.card {
+    border: 1px solid black
+}
